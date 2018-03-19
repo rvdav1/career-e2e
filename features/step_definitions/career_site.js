@@ -60,18 +60,13 @@ module.exports = function () {
   });
 
   this.Then(/^And the following skills are selected: Software Engineering, Software Test Engineering$/, (data) => {
-    let skills = datga.split(',');
-    // return skills.map(skill => {
-    //   return
-    // })
+    let skills = data.split(',');
+  
   });
 
   this.Then(/^the following positions should be displayed:$/, (dataTable) => {
-
-    let dataArray = dataTable.toArray();
+    let dataArray = dataTable.raw().map(subarr => subarr[index]);
     const positionByName = () => driver.findElement(by.cssContaingText(text));
-
-    return expect(dataArray.map(item => positionByName(item).isDisplayed()).every(Boolean))
-      .to.eventually.equal(true);
+    return expect(dataArray.map(item => positionByName(item).isDisplayed()).every(Boolean)).to.eventually.equal(true);
   });
 };
