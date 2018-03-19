@@ -4,6 +4,7 @@ module.exports = function () {
 
   this.Given(/^the EPAM career site is loaded$/, () => {
     driver.get('https://www.epam.com/careers');
+    return driver.wait(() => driver.findElement(by.css('.job-search__submit')).isDisplayed());
   });
 
   this.When(/^the Find button is clicked$/, () => {
