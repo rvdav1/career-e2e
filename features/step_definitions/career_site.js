@@ -10,7 +10,7 @@ module.exports = function () {
     return driver.findElement(by.css('.job-search__submit')).click();
   });
 
-  this.When(/^the (.*) role is entered$/, role => {
+  this.When(/^the role (.*) is entered$/, role => {
     return driver.findElement(by.css('.job-search__input')).sendKeys(role);
   });
 
