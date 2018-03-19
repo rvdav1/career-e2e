@@ -9,7 +9,6 @@
     "chromedriver": "*",
     "cucumber": "^1.3.3",
     "selenium-webdriver": "2.53.*",
-    "webdriver-manager": "^10.2.5"
   },
   "devDependencies": {},
   "scripts": {
