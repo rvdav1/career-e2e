@@ -1,0 +1,26 @@
+epam logo: '.header__logo'
+home link: '.breadcrumbs__link'
+menu button: '.hamburger-menu__button'
+földgömb: '.location-selector__button'
+hungary: //li[contains(@aria-label,"Hungary")]
+city: select-box-location-d2-result-yjw5-${city}
+driver.findElement(by.css('.job-search__input')).sendKeys(role);
+Location: '#select-box-location-00-container'
+
+
+https://www.seleniumhq.org/docs/03_webdriver.jsp
+
+
+var element = driver.findElement(By.id('elementID'));
+element.getText().then(text => console.log(`Text is ${text}`));
+
+
+URL:
+
+https://github.com/sorosz89/career-skeleton
+
+https://github.com/mozilla/geckodriver/blob/master/README.md
+https://www.seleniumhq.org/docs/03_webdriver.jsp
+https://cucumber.io/
+
+
