@@ -8,6 +8,9 @@ https://www.seleniumhq.org/docs/03_webdriver.jsp
 https://cucumber.io/
 https://cucumber.io/docs/reference
 http://docs.behat.org/en/v2.5/guides/1.gherkin.html
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
+https://www.tutorialspoint.com/xpath/index.htm
+https://regexr.com/
 
 git commit -m "added a new feature some files changed"
 ------------------------------------------------------------------------------------------------------------------------------------
