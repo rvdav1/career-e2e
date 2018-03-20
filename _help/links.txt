@@ -1,3 +1,20 @@
+
+URL:
+
+https://github.com/sorosz89/career-skeleton
+
+https://github.com/mozilla/geckodriver/blob/master/README.md
+https://www.seleniumhq.org/docs/03_webdriver.jsp
+https://cucumber.io/
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
 epam logo: '.header__logo'
 home link: '.breadcrumbs__link'
 menu button: '.hamburger-menu__button'
@@ -15,12 +32,18 @@ var element = driver.findElement(By.id('elementID'));
 element.getText().then(text => console.log(`Text is ${text}`));
 
 
-URL:
 
-https://github.com/sorosz89/career-skeleton
+ ------------------------------------------------------------------------------------------------------------------------------------
 
-https://github.com/mozilla/geckodriver/blob/master/README.md
-https://www.seleniumhq.org/docs/03_webdriver.jsp
-https://cucumber.io/
+  let findButton = driver.findElement(by.css('.job-search__submit'));
+  let searchResult = driver.findElement(by.css('.search-result'));
+  let searchResultListItem = driver.findElement(by.css('.search-result__item-info'));
+  let searchResultListItemName = driver.findElement(by.css('.search-result__item-name'));
+  let searchResultListItemLocation = driver.findElement(by.css('.search-result__location'));
+  let searchResultListItemPriority = driver.findElement(by.css('.search-result__item-type'));
+  let searchResultListItemDescription = driver.findElement(by.css('.search-result__item-description'));
+  let roleInputField = driver.findElement(by.css('.job-search__input'));
+  let locationBox = driver.findElement(by.id('select-box-location-d2-container'));
 
+  let positionByName = driver.findElement(by.cssContaingText(text))
 
