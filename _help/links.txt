@@ -6,6 +6,8 @@ https://github.com/sorosz89/career-skeleton
 https://github.com/mozilla/geckodriver/blob/master/README.md
 https://www.seleniumhq.org/docs/03_webdriver.jsp
 https://cucumber.io/
+https://cucumber.io/docs/reference
+http://docs.behat.org/en/v2.5/guides/1.gherkin.html
 
 git commit -m "added a new feature some files changed"
 ------------------------------------------------------------------------------------------------------------------------------------
