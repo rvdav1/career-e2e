@@ -1,4 +1,4 @@
-#Homework:
+#Homework
 Added page object design pattern
 
 # career-e2e
