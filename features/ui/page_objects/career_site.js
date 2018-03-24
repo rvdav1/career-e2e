@@ -13,14 +13,13 @@ class CareerSite{
 
     selectCountry(country){
         this.clickElement("Location select");
-        driver.sleep(1000);
+        driver.sleep(500);
         let locationCountry = driver.findElement(by.css('li[aria-label="' + country + '"]'));
-        locationCountry.click();
-        return driver.sleep(1000);
+        return locationCountry.click();
     }
 
     selectCity(city){
-        driver.sleep(1000);
+        driver.sleep(500);
         let locationCity = driver.findElement(by.css('li[id$="' + city + '"]'));
         return locationCity.click();
     }
