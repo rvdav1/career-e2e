@@ -30,7 +30,6 @@ module.exports = function () {
   });
 
   this.Then(/^an open position should be (displayed|hidden)$/, (state) => {
-    driver.sleep(1000);
     return expect(careerSite.isElementDisplayed("Position result"))
       .to.eventually.be.equal(state === 'displayed');
   });
